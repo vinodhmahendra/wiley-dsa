@@ -1,0 +1,28 @@
+package com.example.javase8;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class UseComaprator {
+	
+	public static void main(String[] args) {
+		
+		List<String> strings = new ArrayList<String>();
+		strings.add("AAA");
+		strings.add("bbb");
+		strings.add("CCC");
+		strings.add("ddd");
+		strings.add("EEE");
+		
+		Collections.sort(strings);
+		for (String string : strings) {
+			System.out.println(string);
+		}
+		
+		Collections.sort(strings,Collections.reverseOrder());
+		
+		
+	}
+
+}

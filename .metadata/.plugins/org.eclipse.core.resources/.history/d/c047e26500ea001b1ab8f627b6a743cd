@@ -1,0 +1,7 @@
+package com.example.javase8.interfaces;
+
+public interface SimpleInterface {
+	public void doSomething();
+	
+	public void x();
+}

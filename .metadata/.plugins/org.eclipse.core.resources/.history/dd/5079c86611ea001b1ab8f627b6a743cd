@@ -1,0 +1,10 @@
+package com.example.java8;
+
+public class CountItems {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

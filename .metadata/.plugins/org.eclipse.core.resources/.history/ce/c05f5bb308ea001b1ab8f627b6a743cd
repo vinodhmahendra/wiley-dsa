@@ -1,0 +1,10 @@
+package com.example.java8.model;
+
+public class Person {
+	
+	private String name;
+	private int age;
+	
+	
+
+}

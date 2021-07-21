@@ -1,0 +1,5 @@
+package com.example.javase8.interfaces;
+
+public interface InterfaceWithArgs {
+
+}

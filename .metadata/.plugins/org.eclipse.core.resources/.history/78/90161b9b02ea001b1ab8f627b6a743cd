@@ -1,0 +1,11 @@
+package com.example.javase8;
+
+public class UseRunnable {
+
+	public static void main(String[] args) {
+		Runnable r1  = ()-> {
+			Thread.sleep(5000);
+		};
+	}
+
+}
